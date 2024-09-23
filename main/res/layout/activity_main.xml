@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="#E3F2FD"> <!-- Light Blue Background -->
+
+    <!-- Input field for Belgium time -->
+    <EditText
+        android:id="@+id/et_belgium_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Belgium Time (HH:mm)"
+        android:inputType="time"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button to convert the time -->
+    <Button
+        android:id="@+id/btn_convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert to Pakistan Time"
+        android:layout_marginTop="24dp" />
+
+    <!-- TextView to display the result -->
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pakistan Time: "
+        android:textSize="18sp"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>
